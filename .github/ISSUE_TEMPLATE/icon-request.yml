@@ -1,0 +1,30 @@
+name: Icon request
+description: Ask for an icon that is not in the set yet
+title: "Icon request: "
+labels: ["icon-request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: What would you call it?
+      placeholder: e.g. parcel-return
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: What is it for?
+      description: >
+        The use case, not just the picture. There may already be something in
+        the set that does the job, and if there is not, knowing what it has to
+        communicate is what decides how it gets drawn.
+      placeholder: e.g. marking an order the customer has sent back, in an order list
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Anything to look at?
+      description: A link, a sketch, or an icon elsewhere that is close. Optional.
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+# Blank issues stay on. The site links straight to issues/new with a title
+# already filled in, and turning them off would send those links to the
+# template chooser instead and drop the title on the way.
+blank_issues_enabled: true
+contact_links:
+  - name: Browse the icons
+    url: https://www.flinticons.com
+    about: Search the full set before requesting one. It may already be there.
